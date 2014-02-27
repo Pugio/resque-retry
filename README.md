@@ -28,7 +28,7 @@ If you're using [Bundler][bundler] to manage your dependencies, you should add `
 Add this to your `Rakefile`:
 
     require 'resque/tasks'
-    require 'resque_scheduler/tasks'
+    require 'resque/scheduler/tasks'
 
 The delay between retry attempts is provided by [resque-scheduler][rqs].
 You'll want to run the scheduler process, otherwise delayed retry attempts
